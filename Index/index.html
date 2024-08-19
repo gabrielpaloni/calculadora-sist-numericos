@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificador Binário</title>
+    <link rel="stylesheet" href="style.css" />
+      <script src="../src/script.js"></script>
+  </head>
+  <body>
+    <div class="gradient-bg">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <h1 class="title">Conversor de sistemas numéricos</h1>
+      <div class="container">
+        <div class="form-container">
+          <form autocomplete="off" action="" method="POST" class="box-login">
+            <h2>Decimal ⬌ Binário</h2>
+            <input
+              type="text"
+              id="input-txt"
+              placeholder="Digite um número ou letra"
+            />
+            <input
+              type="button"
+              value="Decimal ➙ Binário"
+              onclick="converterParaBinario()"
+              id="btn-converter"
+            />
+            <input
+            type="button"
+            value="Binário ➙ Decimal"
+            id="btn-converter1"
+          />
+            <input
+              type="button"
+              value="Limpar"
+              onclick="limpar()"
+              id="btn-limpar" 
+            />
+            <input
+              type="text"
+              id="bin-inp"
+              readonly
+              placeholder="Resultado"
+            />
+          </form>
+        </div>
+        <div class="form-container">
+          <form autocomplete="off" action="" method="POST" class="box-login1">
+            <h2>Binário ⬌ Octal</h2>
+            <input
+              type="text"
+              id="input-txt-dup"
+              placeholder="Digite um número ou letra"
+            />
+            <input
+              type="button"
+              value="Binário ➙ Octal"
+              onclick="converterParaBinarioDup()"
+              id="btn-converter-dup"
+            />
+            <input
+            type="button"
+            value="Octal ➙ Binário"
+            onclick="converterParaBinarioDup()"
+            id="btn-converter-dup1"
+          />
+            <input
+            class="inputcolor"
+              type="button"
+              value="Limpar"
+              onclick="limparDup()"
+              id="btn-limpar-dup" 
+            />
+            <input
+              type="text"
+              id="bin-inp-dup"
+              readonly
+              placeholder="Resultado"
+            />
+          </form>
+        </div>
+        <div class="form-container">
+          <form autocomplete="off" action="" method="POST" class="box-login2">
+            <h2>Binário ⬌ Hexadecimal</h2>
+            <input
+              type="text"
+              id="input-txt-trip"
+              placeholder="Digite um número ou letra"
+            />
+            <input
+              type="button"
+              value="Binário ➙ Hexadecimal"
+              onclick="converterParaHexadecimalTrip()"
+              id="btn-converter-trip"
+            />
+            <input
+            type="button"
+            value="Hexadecimal ➙ Binário"
+            onclick="converterParaHexadecimalTrip()"
+            id="btn-converter-trip1"
+          />
+            <input
+              type="button"
+              value="Limpar"
+              onclick="limparTrip()"
+              id="btn-limpar-trip" 
+            />
+            <input
+              type="text"
+              id="bin-inp-trip"
+              readonly
+              placeholder="Resultado"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div>
+  </body>
+</html> 
