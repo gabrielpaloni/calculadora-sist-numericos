@@ -47,8 +47,7 @@ The project demonstrates proficiency in DOM manipulation and algorithmic logic:
 
 ## 👨‍💻 Author
 **Gabriel Paloni**
-*Computer Science Student in Campinas, Brazil.*
-This project is part of my learning journey in **Programming Logic** and **Web Development**, reinforcing fundamental concepts for my future specializations in **AI** and **Cybersecurity**.
+*Computer Science Student in Campinas, Brazil.* This project is part of my learning journey in **Programming Logic** and **Web Development**, reinforcing fundamental concepts for my future specializations in **AI** and **Cybersecurity**.
 
 ---
 <p align="center">
