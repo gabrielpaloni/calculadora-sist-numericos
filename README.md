@@ -21,14 +21,6 @@ To provide a fast and intuitive interface for students and developers to perform
 
 ---
 
-## 👥 Contributors (Team)
-
-* **Gabriel Paloni** - *Developer & Project Lead*
-* **Ana Paula** - *Collaborator*
-* **Luciano Porto Sales** - *Collaborator*
-
----
-
 ## 🛠️ Technical Details
 
 The project demonstrates proficiency in DOM manipulation and algorithmic logic:
@@ -53,7 +45,7 @@ The project demonstrates proficiency in DOM manipulation and algorithmic logic:
 
 ---
 
-## 👨‍💻 Main Author
+## 👨‍💻 Author
 **Gabriel Paloni**
 *Computer Science Student in Campinas, Brazil.*
 This project is part of my learning journey in **Programming Logic** and **Web Development**, reinforcing fundamental concepts for my future specializations in **AI** and **Cybersecurity**.
